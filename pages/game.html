@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/game.css">
+
+    <script defer src="../js/game.js"></script>
+
+    <title>Memory Game</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <span class="player"></span>
+          <span>tempo: <span class = "timer"> 00 </span></span>
+        </header>
+      <div class="grid"> </div>
+    </main>
+    
+    <audio id="card_turn_front_sound">
+      <source src="../audios/card_turn_front_sound.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="card_turn_back_sound">
+      <source src="../audios/card_turn_back_sound.mp3" type="audio/mpeg">
+    </audio>
+              
+    <audio id="match_sound">
+      <source src="../audios/match_sound.mp3" type="audio/mpeg">
+    </audio>
+              
+    <audio id="winner_sound">
+      <source src="../audios/winner_sound.mp3" type="audio/mpeg">
+    </audio>
+              
+    <audio id="background_music" loop>
+      <source src="../audios/background_music.mp3" type="audio/mpeg">
+    </audio>
+
+  </body>
+</html>
